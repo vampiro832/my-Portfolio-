@@ -1,0 +1,39 @@
+* { 
+    padding:0;
+    margin: 0;
+    text-decoration: none; 
+    box-sizing: border-box;
+    
+}
+
+.container {
+    color: red;
+    font-size: 20px;
+    line-height: 80px;
+    padding: 0 0;
+    font-weight: bold;
+    list-style:none; 
+    display: inline-block;
+}
+
+/*.hero + nav {
+    padding: 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+
+
+/*.info {
+margin-bottom: 20px;
+padding: 50px;
+height: 300px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: aliceblue;
+}
+
+/*.background-image {
+    background-image: url('./moon-large.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    opacity: 2; } */
