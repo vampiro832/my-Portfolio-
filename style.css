@@ -1,39 +1,68 @@
 * { 
     padding:0;
-    margin: 0;
-    text-decoration: none; 
-    box-sizing: border-box;
+    margin: 0;  
+}
+
+.body {
+    background-color: white;
+    font-weight: bold;
+    list-style:none; 
     
 }
 
-.container {
-    color: red;
-    font-size: 20px;
-    line-height: 80px;
-    padding: 0 0;
-    font-weight: bold;
-    list-style:none; 
+.hero { 
+    margin:auto;
+    padding: 10px;
+    height: 200px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    } 
+
+.hero h1 {
+    color: rebeccapurple;
+    font-size: 60px;
+     }
+
+.hero ul li {
+    text-align: match-parent;
     display: inline-block;
+
+} 
+
+.hero ul li :hover {
+    color: rebeccapurple;
+    font-weight: bolder;
+    animation-delay: 0.3s;
 }
 
-/*.hero + nav {
-    padding: 0px 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body section {
+    margin:auto;
+    text-align: center;
 }
+
+body section article {
+    width: 50px 100px 50px 100px;
+  border: 15px solid rebeccapurple;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 50px;
+  text-align: justify;
+}
+
+/*body section article div {
+    margin: 20px;
+    height: 100px;
+    width: 50px;
+  
+}
+
+
  
-
-
-/*.info {
-margin-bottom: 20px;
-padding: 50px;
-height: 300px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-color: aliceblue;
-}
-
-/*.background-image {
-    background-image: url('./moon-large.jpg');
+/*div, .background-image {
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    opacity: 2; } */
+    height: 10vh;
+    opacity: 2; 
+} */
